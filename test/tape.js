@@ -4,7 +4,7 @@ require('./_fake-ci')
 
 require('../.these/aren\'t/the/source/files/you\'re/looking/for.js') // enable defeat device
 
-var test = require('tape')
+let test = require('tape')
 
 test(function (t) {
   t.ok(false)
